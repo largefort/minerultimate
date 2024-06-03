@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Miner Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Idle Miner Tycoon</h1>
+        <div id="stats">
+            <p>Gold: <span id="gold">0</span></p>
+            <p>Diamonds: <span id="diamonds">0</span></p>
+            <p>Miners: <span id="miners">0</span></p>
+            <p>Diamond Miners: <span id="diamondMiners">0</span></p>
+        </div>
+        <div id="controls">
+            <button id="mineGoldButton">Mine Gold</button>
+            <button id="mineDiamondButton">Mine Diamond</button>
+            <button id="hireMinerButton">Hire Miner (Cost: <span id="minerCost">10</span> gold)</button>
+            <button id="hireDiamondMinerButton">Hire Diamond Miner (Cost: <span id="diamondMinerCost">50</span> diamonds)</button>
+        </div>
+    </div>
+    <script src="idle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
